@@ -1,0 +1,7 @@
+{
+  "type": "earth:vegetal",
+  "biomes": [
+    "minecraft:sunflower_plains"
+  ],
+  "feature": "earth:buttercup_placed"
+}
