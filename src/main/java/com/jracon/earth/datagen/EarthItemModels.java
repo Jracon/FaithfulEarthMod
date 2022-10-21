@@ -15,5 +15,6 @@ public class EarthItemModels extends ItemModelProvider {
     @Override
     protected void registerModels() {
         singleTexture(Registration.BUTTERCUP.getId().getPath(), mcLoc("item/generated"), "layer0", modLoc("block/buttercup"));
+        singleTexture(Registration.MUD_BUCKET.getId().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/mud_bucket"));
     }
 }

@@ -1,5 +1,7 @@
 {
   "block.earth.buttercup": "Buttercup",
   "block.earth.buttercup_pot": "Potted Buttercup",
-  "itemGroup.Minecraft Earth": "Minecraft Earth"
+  "entity.earth.cluckshroom": "Cluckshroom",
+  "item.earth.mud_bucket": "Bucket of Mud",
+  "itemGroup.earth": "Minecraft Earth"
 }

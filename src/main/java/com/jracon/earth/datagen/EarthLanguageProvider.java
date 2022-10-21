@@ -19,5 +19,11 @@ public class EarthLanguageProvider extends LanguageProvider {
 
         add(Registration.BUTTERCUP.get(), "Buttercup");
         add(Registration.BUTTERCUP_POT.get(), "Potted Buttercup");
+
+        add(Registration.MUD_BUCKET.get(), "Bucket of Mud");
+
+        // Chickens
+        add(Registration.CLUCKSHROOM.get(), "Cluckshroom");
+        //
     }
 }

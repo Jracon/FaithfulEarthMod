@@ -16,5 +16,7 @@ public class DataGenerators {
         generator.addProvider(event.includeClient(), new EarthItemModels(generator, event.getExistingFileHelper()));
         generator.addProvider(event.includeClient(), new EarthLanguageProvider(generator, "en_us"));
         generator.addProvider(event.includeServer(), new EarthLootTables(generator));
+        generator.addProvider(event.includeClient(), new EarthFluidTags(generator, event.getExistingFileHelper()));
+        generator.addProvider(event.includeServer(), new EarthRecipes(generator));
     }
 }
